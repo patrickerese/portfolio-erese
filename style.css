@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+
 }
 html{
     scroll-behavior: smooth;
@@ -174,7 +175,7 @@ section .title::after{
   width: 100%;
   display: flex;
 }
-.home .max-width .row{
+.home .max-width {
   margin-right: 0;
 }
 .home .home-content .text-1{
@@ -315,18 +316,7 @@ section .title::after{
 /*Project Section Styling*/
 
 
-.inner{
-    overflow: hidden;
-}
 
-.inner img{
-    transition: all 1.5s ease;
-    
-}
-
-.inner:hover img{
-    transform: scale(1.5);
-}
 .btn button{
   color: #fff;
   display: block;
@@ -365,15 +355,15 @@ section .title::after{
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
-.contact .contact-content .row{
+.contact .contact-content {
     display: flex;
     height: 65px;
     align-items: center;
 }
-.contact .contact-content .row .info{
+.contact .contact-content  .info{
     margin-left: 30px;
 }
-.contact .contact-content .row i{
+.contact .contact-content  i{
     font-size: 25px;
     color: crimson;
 }

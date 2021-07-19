@@ -19,9 +19,6 @@
 
 </head>
 <body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
@@ -69,25 +66,26 @@
     </section>
 
     <!-- Service Section -->
+  
     <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">My services</h2>
             <div class="serv-content">
-                <div class="card">
+                <div class="card col-md-4">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
                         <p>Let's make your website beautiful.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card col-md-4">
                     <div class="box">
                         <i class="fas fa-laptop-code"></i>
                         <div class="text">Full Stack Web Developer</div>
                         <p>I can help on the front-end and back-end.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card col-md-4">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Apps Design</div>
@@ -100,7 +98,7 @@
     </section>
 
     <!-- Tools Section -->
-    <div class="jumbotron" id="tools">
+    <div id="tools">
         <h4 class="text-center mt-3 mb-5" id="toolstext">Tools</h4>
         <div class="d-flex flex-wrap justify-content-center mb-5">
       <img src="./images/logo-bootstrap.png" style="width: 80px;">
@@ -120,58 +118,49 @@
 
    <!-- Project Section -->
 
-   <div class="container" id="projects">
+   <div class="container-fluid" id="projects">
         <h2 class="text-center mb-5">Projects</h2>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div class="col-md-4">
-                <div class="card shadow" style="width: 20rem;">
-                    <div class="inner">
-                         <img src="./images/test3.png" class="card-img-top" alt="...">
-                    </div>
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Project 2</h5>
-                    <p class="card-text">Coming Soon.</p>
-                    <a href="#" class="btn"><button>View Project</button></a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow" style="width: 20rem;">
-                  <div class="inner">
-                       <img src="./images/test1.jpeg" class="card-img-top" alt="...">
-                  </div>
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Portfolio</h5>
-                    <p class="card-text">Powered by HTML, CSS ,Bootstrap, JavaScript</p>
-                     <a href="#" class="btn"><button>View Project</button></a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow" style="width: 20rem;">
-                  <div class="inner">
-                        <img src="./images/test2.jpeg" class="card-img-top" alt="...">
-                    </div>
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Project 3</h5>
-                    <p class="card-text">Coming Soon.</p>
-                     <a href="#" class="btn"><button>View Project</button></a>
-                  </div>
-                </div>
-            </div>
+        <div>
+         <div class="card-deck">
+           <div class="card">
+             <img class="card-img-top" src="./images/test3.png" alt="Card image cap">
+             <div class="card-body">
+               <h5 class="card-title">Portfolio</h5>
+               <p class="card-text">Powered By: HTML 5, CSS and JavaScript</p>
+               <a href="#" class="btn"><button>View Project</button></a>
+             </div>
+           </div>
+           <div class="card">
+             <img class="card-img-top" src="./images/test1.jpeg" alt="Card image cap">
+             <div class="card-body">
+               <h5 class="card-title">Project 2</h5>
+               <p class="card-text">Coming Soon.</p>
+               <a href="#" class="btn"><button>View Project</button></a>
+             </div>
+           </div>
+
+           <div class="card">
+             <img class="card-img-top" src="./images/test2.jpeg" alt="Card image cap">
+             <div class="card-body">
+               <h5 class="card-title">Project 3</h5>
+               <p class="card-text">Coming Soon.</p>
+               <a href="#" class="btn"><button>View Project</button></a>
+             </div>
+           </div>
+         </div>
         </div>
-    </div>
+  </div>
 
     <!-- contact section start -->
-    
-    <section class="contact" id="contact">
+
+    <section class="container d-block mx-auto contact" id="contact">
             <h2 class="title">Contact me</h2>
-        <div class="row">
-            <div class="column left col-md-6">
+    
+            <div class="column left">
                 <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
 
-            <div class="column right col-md-6">
+            <div class="column right">
                 <div class="text">Message me</div>
                 <form action="#">
                     <div class="fields">
@@ -193,8 +182,7 @@
                     </div>
                 </form>
             </div>
-        </div>
-            
+
                 <ul class="social-menu d-flex mt-4 justify-content-center" >
                     <li><a href="https://www.facebook.com/peachnayeon/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com/minguritrades_" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -203,7 +191,7 @@
                 </ul>
             
     </section>
-
+  
 
     <!-- Social Media Links -->
     
