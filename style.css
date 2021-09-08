@@ -656,7 +656,7 @@ footer span a:hover{
   cursor: pointer;
 }
 
-/*.card-img-top{
+.card-img-top{
     min-height: 28rem;
     max-height: 40rem;
-}*/
+}
